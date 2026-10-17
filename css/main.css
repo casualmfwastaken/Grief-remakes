@@ -99,18 +99,16 @@ input[type="checkbox"] {
     margin: 0;
     accent-color: var(--color-error);
 }
-svg, 
-img[src$=".svg"] {
-    fill: currentColor;
-    stroke: currentColor;
+svg,
+img,
+object,
+embed {
+    filter: none !important;
+    mix-blend-mode: normal !important;
+    opacity: 1 !important;
 }
 
-header svg,
-header img[src$=".svg"] {
-    filter: brightness(0) invert(1);
-}
-
-main svg,
-main img[src$=".svg"] {
-    filter: drop-shadow(0 0 2px var(--color-error));
+svg * {
+    fill: initial !important;
+    stroke: initial !important;
 }
