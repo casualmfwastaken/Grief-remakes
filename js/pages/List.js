@@ -84,6 +84,9 @@ export default {
                 <div class="meta">
                     <div class="errors" v-show="errors.length > 0">
                         <p class="error" v-for="error of errors">{{ error }}</p>
+                    </div>
+                    <div class="og">
+                    </div>
                     <template v-if="editors">
                         <h3>List Editors</h3>
                         <ol class="editors">
