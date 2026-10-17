@@ -79,13 +79,14 @@ export default {
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
                 </div>
-                <div class="og">
             </div>
+            <div class="meta-container">
                 <div class="meta">
                     <div class="errors" v-show="errors.length > 0">
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="og">
+                        <p class="type-label-md">Website layout made by <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a></p>
                     </div>
                     <template v-if="editors">
                         <h3>List Editors</h3>
