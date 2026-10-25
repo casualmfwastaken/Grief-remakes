@@ -7,12 +7,5 @@
     "verification": "",
     "percentToQualify": 32,
     "password": "Free copy",
-    "records": [
-        {
-            "user": "Null",
-            "link": "",
-            "percent": 0,
-            "hz": 0
-        }
-    ]
+    "records": []
 }
